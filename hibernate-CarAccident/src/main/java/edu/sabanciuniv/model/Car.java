@@ -1,5 +1,8 @@
 package edu.sabanciuniv.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Car extends Vehicle{
 
     // Car sınıfının içerisinde Vehicle'dan extend ettikleri artı olarak da color oluyor.

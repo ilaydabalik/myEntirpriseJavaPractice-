@@ -1,15 +1,21 @@
 package edu.sabanciuniv.model;
 
+import jakarta.persistence.*;
+import org.hibernate.annotations.ManyToAny;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-
+@Entity
 public class Accident {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id;
     private LocalDate accidentDate;
 
     //Bir kazaya birden fazla araba karışabilir.
+    @ManyToMany
     private List<Vehicle> vehicleList = new ArrayList<>();
 
     public Accident(LocalDate accidentDate) {
@@ -34,6 +40,14 @@ public class Accident {
 
     public void setVehicleList(List<Vehicle> vehicleList) {
         this.vehicleList = vehicleList;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override

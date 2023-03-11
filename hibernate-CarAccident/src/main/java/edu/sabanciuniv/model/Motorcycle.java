@@ -1,5 +1,8 @@
 package edu.sabanciuniv.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Motorcycle extends Vehicle{
 
     private double enginePower;
@@ -8,7 +11,6 @@ public class Motorcycle extends Vehicle{
         super(year, plate);
         this.enginePower = enginePower;
     }
-
     public Motorcycle(double enginePower) {
         this.enginePower = enginePower;
     }
