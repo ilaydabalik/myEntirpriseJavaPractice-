@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db2c4d9-717c-4bbe-b874-ea0d8e0c3b85" name="Changes" comment="initialized car insurance project">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/test/TestInsuranceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="2db2c4d9-717c-4bbe-b874-ea0d8e0c3b85" name="Changes" comment="db modifications">
+      <change afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/utility/EntityManagerUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Accident.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Accident.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Motorcycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/model/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/test/TestInsuranceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-CarAccident/src/main/java/edu/sabanciuniv/test/TestInsuranceApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678559192298</updated>
       <workItem from="1678559193533" duration="56000" />
-      <workItem from="1678559253510" duration="8965000" />
+      <workItem from="1678559253510" duration="12161000" />
     </task>
     <task id="LOCAL-00001" summary="initialized car insurance project">
       <created>1678563708072</created>
@@ -81,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678563708072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="db modifications">
+      <created>1678568924853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678568924854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialized car insurance project" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialized car insurance project" />
+    <MESSAGE value="db modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="db modifications" />
   </component>
 </project>

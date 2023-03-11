@@ -15,7 +15,7 @@ public class Accident {
     private LocalDate accidentDate;
 
     //Bir kazaya birden fazla araba karışabilir.
-    @ManyToMany
+    @ManyToMany(mappedBy = "accidentList")
     private List<Vehicle> vehicleList = new ArrayList<>();
 
     public Accident(LocalDate accidentDate) {

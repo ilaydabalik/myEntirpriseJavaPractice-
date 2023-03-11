@@ -20,7 +20,7 @@ public class Vehicle {
 
     //Bir aracın hiç kazası olamayabilir ya da birden fazla kazası olabilir.
     //Accident tablosunda vehicle'ı nasıl tuttuk? vehicleList ile tuttuk.
-    @ManyToMany(mappedBy = "vehicleList")
+    @ManyToMany
     private List<Accident> accidentList = new ArrayList<>();
 
     public Vehicle(int year, String plate) {
