@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db2c4d9-717c-4bbe-b874-ea0d8e0c3b85" name="Changes" comment="db pushed">
-      <change afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2db2c4d9-717c-4bbe-b874-ea0d8e0c3b85" name="Changes" comment="Spring Web">
+      <change afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/StringResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-CarAccident/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-CarAccident/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +84,7 @@
       <updated>1678559192298</updated>
       <workItem from="1678559193533" duration="56000" />
       <workItem from="1678559253510" duration="14679000" />
-      <workItem from="1678610059222" duration="4965000" />
+      <workItem from="1678610059222" duration="10136000" />
     </task>
     <task id="LOCAL-00001" summary="initialized car insurance project">
       <created>1678563708072</created>
@@ -111,7 +107,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678572123203</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring Web">
+      <created>1678615372167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678615372167</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Spring Web">
+      <created>1678615465725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678615465725</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Spring Web">
+      <created>1678615482771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678615482771</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +138,7 @@
     <MESSAGE value="initialized car insurance project" />
     <MESSAGE value="db modifications" />
     <MESSAGE value="db pushed" />
-    <option name="LAST_COMMIT_MESSAGE" value="db pushed" />
+    <MESSAGE value="Spring Web" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Web" />
   </component>
 </project>
