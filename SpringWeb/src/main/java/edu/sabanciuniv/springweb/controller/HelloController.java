@@ -1,7 +1,11 @@
 package edu.sabanciuniv.springweb.controller;
 
+import edu.sabanciuniv.springweb.model.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 
@@ -9,6 +13,7 @@ public class HelloController {
     // Uygulamamızın dışarıya açılan servislerini, arayüzlerini controller'a yazıyoruz.
     // İlk servisimi yazıyorum
 
+    List<Student> students = new ArrayList<>();
 
     //Services & End-point & API
     @RequestMapping("/hello")
@@ -65,13 +70,37 @@ public class HelloController {
             return num1 + " + " + num2 + " = " + (num1 + num2);
         } else if(operation.equals("subtract")) {
             return num1 + " - " + num2 + " = " + (num1 - num2);
-        }else if(operation.equals("multiple")) {
+        } else if(operation.equals("multiple")) {
             return num1 + " * " + num2 + " = " + (num1 * num2);
-        }else if(operation.equals("divide")) {
+        } else if(operation.equals("divide")) {
             return num1 + " / " + num2 + " = " + (num1 / num2);
         }
         return "Something went wrong! ";
     }
+
+    //Listeleri nasıl görüyoruz
+    //@RequestMapping(value = "/students", method = RequestMethod.POST)
+    // http://localhost:8080/students
+    @GetMapping("/students")
+    public List<Student> getAllStudentList() {
+
+        students.add(new Student("ilayda balik", 29, 'f', 234));
+        students.add(new Student("merthan gencer", 29, 'm', 345));
+        students.add(new Student("busra ceren", 27, 'f', 567));
+        students.add(new Student("irem ercan", 28, 'f', 324));
+        return students;
+    }
+
+    // Postmapping ile listeye yeni öğrenci eklemek
+    // Yeni post mapping ile ekleme yapmak için POSTMAN kullanacağız
+    @PostMapping
+    public List<Student> putNewStudentToStudentList(@RequestBody Student newStudent){
+        this.students.add(newStudent);
+        return this.students;
+
+    }
+
+
 
 
 }

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db2c4d9-717c-4bbe-b874-ea0d8e0c3b85" name="Changes" comment="Spring Web">
-      <change afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/StringResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/HelloController.java" afterDir="false" />
     </list>
@@ -65,6 +65,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.sabanciuniv.springweb.model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SpringWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SpringWeb" />
@@ -84,7 +89,7 @@
       <updated>1678559192298</updated>
       <workItem from="1678559193533" duration="56000" />
       <workItem from="1678559253510" duration="14679000" />
-      <workItem from="1678610059222" duration="10136000" />
+      <workItem from="1678610059222" duration="12653000" />
     </task>
     <task id="LOCAL-00001" summary="initialized car insurance project">
       <created>1678563708072</created>
@@ -128,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678615482771</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Spring Web">
+      <created>1678622926141</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678622926141</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
