@@ -4,10 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db2c4d9-717c-4bbe-b874-ea0d8e0c3b85" name="Changes" comment="Spring Web">
-      <change afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/model/Student.java" afterDir="false" />
+    <list default="true" id="2db2c4d9-717c-4bbe-b874-ea0d8e0c3b85" name="Changes" comment="POSTman ile Post işlemleri">
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/src/main/java/edu/sabanci/springdatabase/SpringDatabaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/src/main/java/edu/sabanci/springdatabase/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/src/main/java/edu/sabanci/springdatabase/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/src/main/java/edu/sabanci/springdatabase/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/src/main/java/edu/sabanci/springdatabase/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDatabase/src/test/java/edu/sabanci/springdatabase/SpringDatabaseApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/SpringWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringWeb/src/test/java/edu/sabanciuniv/springweb/SpringWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringWeb/src/main/java/edu/sabanciuniv/springweb/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +43,12 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpringDatabase" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,8 +84,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -70,7 +95,14 @@
       <recent name="edu.sabanciuniv.springweb.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringDatabaseApplication">
+    <configuration name="SpringDatabaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringDatabase" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.sabanci.springdatabase.SpringDatabaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SpringWeb" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.sabanciuniv.springweb.SpringWebApplication" />
@@ -89,7 +121,7 @@
       <updated>1678559192298</updated>
       <workItem from="1678559193533" duration="56000" />
       <workItem from="1678559253510" duration="14679000" />
-      <workItem from="1678610059222" duration="12653000" />
+      <workItem from="1678610059222" duration="20671000" />
     </task>
     <task id="LOCAL-00001" summary="initialized car insurance project">
       <created>1678563708072</created>
@@ -140,17 +172,36 @@
       <option name="project" value="LOCAL" />
       <updated>1678622926141</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="POSTman ile Post işlemleri">
+      <created>1678625311697</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678625311697</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialized car insurance project" />
     <MESSAGE value="db modifications" />
     <MESSAGE value="db pushed" />
     <MESSAGE value="Spring Web" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Web" />
+    <MESSAGE value="POSTman ile Post işlemleri" />
+    <option name="LAST_COMMIT_MESSAGE" value="POSTman ile Post işlemleri" />
   </component>
 </project>
